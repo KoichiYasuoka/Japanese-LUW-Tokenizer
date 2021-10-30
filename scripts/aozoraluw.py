@@ -3,7 +3,7 @@
 from transformers import AutoModelForTokenClassification,AutoTokenizer,TokenClassificationPipeline
 brt="KoichiYasuoka/bert-base-japanese-luw-upos"
 mdl=AutoModelForTokenClassification.from_pretrained(brt)
-tkz=AutoTokenizer.from_pretrained(brt,model_max_length=512)
+tkz=AutoTokenizer.from_pretrained(brt)
 nlp=TokenClassificationPipeline(model=mdl,tokenizer=tkz,aggregation_strategy="simple",device=0)
 with open("aozora.txt","r",encoding="utf-8") as f, open("aozora.luw.txt","w",encoding="utf-8") as w:
   d=[]
