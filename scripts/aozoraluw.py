@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+#! /usr/bin/python3 -i
 
 from transformers import AutoModelForTokenClassification,AutoTokenizer,TokenClassificationPipeline
 brt="KoichiYasuoka/bert-base-japanese-luw-upos"
