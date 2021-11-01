@@ -17,7 +17,7 @@ class LineByLineTextDataset(Dataset):
   def __getitem__(self,i):
     return {"input_ids":torch.tensor(self.tokenizer(self.examples[i],add_special_tokens=True,truncation=True,max_length=self.block_size)["input_ids"],dtype=torch.long)}
 
-tokenizer=RemBertTokenizerFast.from_pretrained("/home/yasuoka/projects/Japanese-LUW-Tokenizer")
+tokenizer=RemBertTokenizerFast.from_pretrained("Japanese-LUW-Tokenizer")
 t=tokenizer.convert_tokens_to_ids(["[PAD]","[CLS]","[SEP]"])
 config=RobertaConfig(pad_token_id=t[0],bos_token_id=t[1],eos_token_id=t[2],vocab_size=len(tokenizer),hidden_size=256,num_hidden_layers=12,num_attention_heads=4,intermediate_size=768,max_position_embeddings=128)
 model=RobertaForMaskedLM(config)
