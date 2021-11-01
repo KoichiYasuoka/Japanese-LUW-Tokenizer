@@ -19,7 +19,7 @@ class LineByLineTextDataset(Dataset):
 
 tokenizer=RemBertTokenizerFast.from_pretrained("Japanese-LUW-Tokenizer")
 t=tokenizer.convert_tokens_to_ids(["[PAD]","[CLS]","[SEP]"])
-config=RobertaConfig(pad_token_id=t[0],bos_token_id=t[1],eos_token_id=t[2],vocab_size=len(tokenizer),hidden_size=256,num_hidden_layers=12,num_attention_heads=4,intermediate_size=768,max_position_embeddings=128)
+config=RobertaConfig(pad_token_id=t[0],bos_token_id=t[1],eos_token_id=t[2],vocab_size=len(tokenizer),hidden_size=256,num_hidden_layers=12,num_attention_heads=4,intermediate_size=768,max_position_embeddings=128,tokenizer_class="RemBertTokenizerFast")
 model=RobertaForMaskedLM(config)
 dataset=LineByLineTextDataset(tokenizer=tokenizer,files=["udja.txt","aozora.txt","aug.txt"],block_size=126)
 collator=DataCollatorForLanguageModeling(tokenizer=tokenizer,mlm=True,mlm_probability=0.15)
