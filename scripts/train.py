@@ -10,7 +10,7 @@ tkz=Tokenizer(models.Unigram())
 tkz.pre_tokenizer=pre_tokenizers.Whitespace()
 tkz.normalizer=normalizers.Sequence([normalizers.Nmt(),normalizers.NFKC()])
 trn=trainers.UnigramTrainer(vocab_size=250300,special_tokens=["[PAD]","[UNK]","[CLS]","[SEP]","[MASK]","<special0>","<special1>","<special2>","<special3>","<special4>","<special5>","<special6>","<special7>","<special8>","<special9>"],initial_alphabet=alp,unk_token="[UNK]",max_piece_length=16,n_sub_iterations=2)
-tkz.train(files=["udja.luw.txt","aozora.luw.txt"],trainer=trn)
+tkz.train(files=["udja.luw.txt","aozora.luw.txt","aug.luw.txt"],trainer=trn)
 tkz.post_processor=pst
 tkz.save("tokenizer.json")
 tokenizer=RemBertTokenizerFast(tokenizer_file="tokenizer.json",vocab_file="/dev/null",bos_token="[CLS]",cls_token="[CLS]",unk_token="[UNK]",pad_token="[PAD]",mask_token="[MASK]",sep_token="[SEP]",do_lower_case=False,keep_accents=True)
