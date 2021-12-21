@@ -1,0 +1,71 @@
+# text = そこでは孤獨が猖獗してゐる。
+1	そこ	そこ	PRON	代名詞	_	6	obl	_	SpaceAfter=No|Translit=ソコ
+2	で	で	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Translit=デ
+3	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Translit=ハ
+4	孤獨	孤独	NOUN	名詞-普通名詞-形状詞可能	_	6	nsubj	_	SpaceAfter=No|Translit=コドク
+5	が	が	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Translit=ガ
+6	猖獗し	猖獗する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Translit=ショウケツシ
+7	てゐる	て居る	SCONJ	助動詞	_	6	mark	_	SpaceAfter=No|Translit=テイル
+8	。	。	PUNCT	補助記号-句点	_	6	punct	_	SpaceAfter=No
+
+# text = あの靑年の蒼ざめた顏には、孤獨の病菌が充滿してゐた。
+1	あの	あの	DET	連体詞	_	2	det	_	SpaceAfter=No|Translit=アノ
+2	靑年	青年	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Translit=セイネン
+3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Translit=ノ
+4	蒼ざめ	青褪める	VERB	動詞-一般	_	6	acl	_	SpaceAfter=No|Translit=アオザメ
+5	た	た	AUX	助動詞	_	4	aux	_	SpaceAfter=No|Translit=タ
+6	顏	顔	NOUN	名詞-普通名詞-一般	_	14	obl	_	SpaceAfter=No|Translit=カオ
+7	に	に	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Translit=ニ
+8	は	は	ADP	助詞-係助詞	_	6	case	_	SpaceAfter=No|Translit=ハ
+9	、	、	PUNCT	補助記号-読点	_	6	punct	_	SpaceAfter=No
+10	孤獨	孤独	NOUN	名詞-普通名詞-形状詞可能	_	12	nmod	_	SpaceAfter=No|Translit=コドク
+11	の	の	ADP	助詞-格助詞	_	10	case	_	SpaceAfter=No|Translit=ノ
+12	病菌	病菌	NOUN	名詞-普通名詞-一般	_	14	nsubj	_	SpaceAfter=No|Translit=ビョウキン
+13	が	が	ADP	助詞-格助詞	_	12	case	_	SpaceAfter=No|Translit=ガ
+14	充滿し	充満する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Translit=ジュウマンシ
+15	てゐ	て居る	SCONJ	助動詞	_	14	mark	_	SpaceAfter=No|Translit=テイ
+16	た	た	AUX	助動詞	_	14	aux	_	SpaceAfter=No|Translit=タ
+17	。	。	PUNCT	補助記号-句点	_	14	punct	_	SpaceAfter=No
+
+# text = さういふ人間は、何かちよつとした手ぶり、ちよつとした口の利き方でも人々に嫌はれ、孤獨を傳染す惧れのある人間として、しらずしらず隔離されてしまふ。
+1	さう	そう	ADV	副詞	_	2	advmod	_	SpaceAfter=No|Translit=ソウ
+2	いふ	言う	VERB	動詞-一般	_	3	acl	_	SpaceAfter=No|Translit=イウ
+3	人間	人間	NOUN	名詞-普通名詞-一般	_	21	nsubj	_	SpaceAfter=No|Translit=ニンゲン
+4	は	は	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Translit=ハ
+5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No
+6	何	何	PRON	代名詞	_	10	nmod	_	SpaceAfter=No|Translit=ナニ
+7	か	か	ADP	助詞-副助詞	_	6	case	_	SpaceAfter=No|Translit=カ
+8	ちよつとし	一寸する	VERB	動詞-非自立可能	_	10	acl	_	SpaceAfter=No|Translit=チョットシ
+9	た	た	AUX	助動詞	_	8	aux	_	SpaceAfter=No|Translit=タ
+10	手ぶり	手振り	NOUN	名詞-普通名詞-一般	_	21	advcl	_	SpaceAfter=No|Translit=テブリ
+11	、	、	PUNCT	補助記号-読点	_	10	punct	_	SpaceAfter=No
+12	ちよつとし	一寸する	VERB	動詞-一般	_	16	acl	_	SpaceAfter=No|Translit=チョットシ
+13	た	た	AUX	助動詞	_	12	aux	_	SpaceAfter=No|Translit=タ
+14	口	口	NOUN	名詞-普通名詞-一般	_	16	nmod	_	SpaceAfter=No|Translit=クチ
+15	の	の	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Translit=ノ
+16	利き方	利き方	NOUN	名詞-普通名詞-一般	_	10	conj	_	SpaceAfter=No|Translit=キキカタ
+17	で	で	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Translit=デ
+18	も	も	ADP	助詞-係助詞	_	16	case	_	SpaceAfter=No|Translit=モ
+19	人々	人々	NOUN	名詞-普通名詞-一般	_	21	obl	_	SpaceAfter=No|Translit=ヒトビト
+20	に	に	ADP	助詞-格助詞	_	19	case	_	SpaceAfter=No|Translit=ニ
+21	嫌は	嫌う	VERB	動詞-一般	_	37	advcl	_	SpaceAfter=No|Translit=キラワ
+22	れ	れる	AUX	助動詞	_	21	aux	_	SpaceAfter=No|Translit=レ
+23	、	、	PUNCT	補助記号-読点	_	21	punct	_	SpaceAfter=No
+24	孤獨	孤独	NOUN	名詞-普通名詞-形状詞可能	_	26	obj	_	SpaceAfter=No|Translit=コドク
+25	を	を	ADP	助詞-格助詞	_	24	case	_	SpaceAfter=No|Translit=ヲ
+26	傳染す	移す	VERB	動詞-一般	_	27	acl	_	SpaceAfter=No|Translit=ウツス
+27	惧れ	恐れ	NOUN	名詞-普通名詞-一般	_	29	nsubj	_	SpaceAfter=No|Translit=オソレ
+28	の	の	ADP	助詞-格助詞	_	27	case	_	SpaceAfter=No|Translit=ノ
+29	ある	有る	VERB	動詞-非自立可能	_	30	acl	_	SpaceAfter=No|Translit=アル
+30	人間	人間	NOUN	名詞-普通名詞-一般	_	37	obl	_	SpaceAfter=No|Translit=ニンゲン
+31	として	として	ADP	助詞-格助詞	_	30	case	_	SpaceAfter=No|Translit=トシテ
+32	、	、	PUNCT	補助記号-読点	_	30	punct	_	SpaceAfter=No
+33	しら	知る	VERB	動詞-一般	_	37	advcl	_	SpaceAfter=No|Translit=シラ
+34	ず	ず	AUX	助動詞	_	33	aux	_	SpaceAfter=No|Translit=ズ
+35	しら	知る	VERB	動詞-一般	_	33	conj	_	SpaceAfter=No|Translit=シラ
+36	ず	ず	AUX	助動詞	_	35	aux	_	SpaceAfter=No|Translit=ズ
+37	隔離さ	隔離する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Translit=カクリサ
+38	れ	れる	AUX	助動詞	_	37	aux	_	SpaceAfter=No|Translit=レ
+39	てしまふ	て仕舞う	SCONJ	助動詞	_	37	mark	_	SpaceAfter=No|Translit=テシマウ
+40	。	。	PUNCT	補助記号-句点	_	37	punct	_	SpaceAfter=No
+
